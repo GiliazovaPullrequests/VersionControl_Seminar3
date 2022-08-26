@@ -82,6 +82,8 @@ switch to another branch and check it out into your working directory
 
 * **git log** ► show all commits in the current branch’s history
 
+* **git log --pretty=format:"%h %s" --graph** ► shows beautiful branching  
+
 ## SHARE & UPDATE
 
 >Retrieving updates from another repository and updating local repos
