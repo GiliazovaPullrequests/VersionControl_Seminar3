@@ -52,4 +52,3 @@
 ##### <font color=lightgreen>Чтобы перейти на одну из существующих веток нужно использовать команду</font>
 * _<font color=orange>git</font> checkout имя_ветки_
 
-<font color=orange>текст</font>
