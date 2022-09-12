@@ -49,6 +49,6 @@
 * _<font color=orange>git</font> pull_
 ## Git checkout
 
-##### <font color=lightgreen>Чтобы перейти на одну из существующих веток нужно использовать команду</font>
+##### и Чтобы перейти на одну из существующих веток нужно использовать команду</font>
 * _<font color=orange>git</font> checkout имя_ветки_
 
