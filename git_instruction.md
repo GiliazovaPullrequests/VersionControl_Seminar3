@@ -1,4 +1,6 @@
-Создали удаленный пустой (!) репозиторий на github: https://github.com/bogomolga/edu.git
+## Работа с удаленными репозиториями в Github
+
+Создали удаленный пустой (!) репозиторий на Github: https://github.com/bogomolga/edu.git
 
 **В VS Code выполняем следующие команды:**
 
@@ -24,16 +26,15 @@ To https://github.com/bogomolga/edu.git
  * [new branch]      main -> main
 branch 'main' set up to track 'origin/main'.
 PS C:\Users\Olga\Documents\!Обучение GB\Введение в контроль версий\clone\pull_push>
-{code}
 ```
 
 После этого файлы из локального репозитория появляются в удаленном репозитории на github.
 
 Редактируем файл в удаленном репозитории и коммитим там же.
 
-В локальном шлем команду git pull:
+В локальном репозитории шлем команду _git pull_:
 
-и
+**Терминал:**
 ```json
 PS C:\Users\Olga\Documents\!Обучение GB\Введение в контроль версий\clone\pull_push> git pull
 remote: Enumerating objects: 8, done.
@@ -50,8 +51,9 @@ Fast-forward
 PS C:\Users\Olga\Documents\!Обучение GB\Введение в контроль версий\clone\pull_push>
 ```
 
-далее
+Далее редактируем файл локально, коммитим и шлем команду _git push_:
 
+**Терминал:**
 ```json
 PS C:\Users\Olga\Documents\!Обучение GB\Введение в контроль версий\clone\pull_push> git commit -am "edit"
 [main 086eed1] edit
@@ -70,6 +72,10 @@ PS C:\Users\Olga\Documents\!Обучение GB\Введение в контро
 ```
 
 **Делаем Fork:**
+
+1. Открываем чужой удаленный репозиторий: https://github.com/bogomolga/VersionControl_Seminar3.git  
+2. Форкаем его в свой удаленный репозиторий, нажимаем **Fork**
+3. Клонируем из своего удаленного репозитория в свой локальный репозиторий и создаем новую ветку "Bogomolova", переходим в эту ветку:
 
 ```json
 PS C:\Users\Olga\Documents\!Обучение GB\Введение в контроль версий\clone> git clone https://github.com/bogomolga/VersionControl_Seminar3.git        
@@ -94,3 +100,44 @@ PS C:\Users\Olga\Documents\!Обучение GB\Введение в контро
 * Bogomolova
   main
 ```
+Далее создаем файл с инструкцией "git_instruction.md", коммитим его.
+Отправляем команду _git push_ и получаем ошибку:
+```json
+fatal: The current branch Bogomolova has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin Bogomolova
+
+To have this happen automatically for branches without a tracking
+```
+
+После этого выполняем предложенную комманду _git push --set-upstream origin Bogomolova_
+
+**Терминал:**
+```json
+PS C:\Users\Olga\Documents\!Обучение GB\Введение в контроль версий\clone\VersionControl_Seminar3> git push --set-upstream origin Bogomolova
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 1.63 KiB | 333.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+remote: 
+remote: Create a pull request for 'Bogomolova' on GitHub by visiting:
+remote:      https://github.com/bogomolga/VersionControl_Seminar3/pull/new/Bogomolova
+remote:
+To https://github.com/bogomolga/VersionControl_Seminar3.git
+ * [new branch]      Bogomolova -> Bogomolova
+branch 'Bogomolova' set up to track 'origin/Bogomolova'.
+PS C:\Users\Olga\Documents\!Обучение GB\Введение в контроль версий\clone\VersionControl_Seminar3>
+```
+
+Затем, обновляем страницу в Github и видим кнопку "Compare & Pull request".
+
+Нажимаем эту кнопку и далее подтверждаем всё:
+
+![скриншот1](..\pic1.png)
+![скриншот2](..\pic2.png)
+![скриншот3](..\pic3.png)
+
+[Ссылка на Pull Request №1](https://github.com/GiliazovaPullrequests/VersionControl_Seminar3/pull/217 "Ссылка на Pull Request №1")
