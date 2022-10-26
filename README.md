@@ -93,3 +93,4 @@ git push origin origin/develop:master
 Добавить ветку test в удаленный репозиторий origin, указывающую на коммит ветки develop:
 
 git push origin origin/develop:refs/heads/test
+ ehf
