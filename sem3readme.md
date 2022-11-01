@@ -32,5 +32,6 @@ Conflict occures during merging branches when on two different branches but in t
 
 >## Pull request
 
+To do the pullrequest go to GitHub and desired repo --> **FORK** the required repo --> **CLONE** into your local repo --> **checkout** to a new branch --> make amendments --> **PUSH** the changes (git will help you to push it from another branch) --> go to git hub --> 
 
 ![](https://www.campusmvp.es/catalogo/repository/product/curso-git-online-banner.png)
