@@ -160,4 +160,33 @@ namespace My3
                return true;
           }
      }
-}
+
+## Команды для работы с гитхабом
+*git --version* 
+
+*git init* 
+
+*git status* 
+*git add* 
+
+*git commit -m "Message"* 
+
+*git log* 
+
+*git diff* 
+
+*git checkout master 
+
+*git clone 
+
+*git push* 
+
+*git pull* - 
+
+*git branch* 
+
+*git branch 
+
+*git checkout -b 
+
+*git branch -d 
