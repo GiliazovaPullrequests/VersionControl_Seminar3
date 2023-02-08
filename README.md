@@ -59,3 +59,13 @@ Git - это  одна из реализаций распределенных с
 *git checkout -b название_ветки* - перейти к другой ветке и, если её нет, то создать
 
 *git branch -d название_ветки* - удалить ветку
+
+# Изучили Github
+
+* Найчились в целом работать с __Github__, и его терминами.
+
+https://www.google.com/url?sa=i&url=https%3A%2F%2Flinedot.ru%2Fkartinki%2Fspasibo-kartinki%2F&psig=AOvVaw2-b6xjgaet7cDg9jf7qVXX&ust=1675964833591000&source=images&cd=vfe&ved=0CA8QjRxqFwoTCIjvlda9hv0CFQAAAAAdAAAAABAE
+
+![SpAsIbO](https://linedot.ru/wp-content/uploads/2019/12/spasibo1.jpg)
+
+***Спасибо вам большое за ваше внимае к нам!*** ___Будем по вам скучать___
