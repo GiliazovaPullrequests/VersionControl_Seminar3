@@ -38,4 +38,4 @@ git clone ссылка - клонирование репозитория с ин
 
 git checkout -b "TurchinMN" - create and change branch 
 
-git commit -am "first commit for test pull request"
+git commit -am "first commit for test pull request" - git add + git commit -m "comment"
