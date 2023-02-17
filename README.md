@@ -1,6 +1,10 @@
 # VersionControl_Seminar3
 Репозиторий для пулл-реквестов по Введению в контроль версий в Geekbrains
 
+![git image](/download.png)
+
+## Git инструкция 
+
 git --version - команда для проверки версии git
 
 git init - инициализация локального репозитория
