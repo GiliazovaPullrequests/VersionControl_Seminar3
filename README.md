@@ -32,3 +32,4 @@
 
 **git clone ссылка** - клонирование репозитория с интернета
 
+![test image](IntroductionGit.png)
