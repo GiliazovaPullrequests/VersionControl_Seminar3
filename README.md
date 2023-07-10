@@ -148,6 +148,6 @@ git config --global user.name "<ваше_имя>"
     git branch -b *имя_ветки*
     git branch *имя_ветки*
     git branch -d *имя_ветки* (удалить ветку)
-git clone
-git push
-git pull
+* git clone
+* git push
+* git pull
