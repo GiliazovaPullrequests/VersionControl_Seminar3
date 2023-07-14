@@ -66,3 +66,7 @@
 А теперь попробуем вставить *картинку*:
 
 ![Логотип GeekBrains](https://img1.teletype.in/files/46/a0/46a0ebc5-126c-49ec-b30e-8ed9668313dd.jpeg)
+
+## Ссылка на pull request:
+
+[pull request Dotkulov](https://github.com/GiliazovaPullrequests/VersionControl_Seminar3/pull/474)
