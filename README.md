@@ -9,7 +9,9 @@
 
 *git config ­­global user.name "Olga"* 
 *git config ­­global user.email oborovikova_80@mail.ru*
-(подставляем своё имя и email) 
+(подставляем своё имя и email)
+
+git config --list - команду используют для того, чтобы посмотреть все настройки системы
 
 git --version - команда для проверки версии git
 
